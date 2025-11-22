@@ -1,0 +1,11 @@
+framework module flutter_rotation_sensor {
+  umbrella header "flutter_rotation_sensor-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_rotation_sensor.Swift {
+  header "flutter_rotation_sensor-Swift.h"
+  requires objc
+}
